@@ -11,7 +11,7 @@ const Page = async () => {
             <h1 className='text-3l font-bold'>
             <ul className='mt-12'>
               {posts.map(post => {
-                console.log('post', post)``
+                console.log('post', post)
                 return(
                 <li key={post.slug}>
                 <Link href={`/posts/${post.slug}`}>
