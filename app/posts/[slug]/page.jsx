@@ -18,7 +18,7 @@ const Page = async ({params}) => {
             <main className='prose mt-12'>{content}</main>
         </div>
     </section>
-  )
+  ) 
 }
 
 export default Page  
